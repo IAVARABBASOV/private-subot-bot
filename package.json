@@ -1,0 +1,42 @@
+{
+  "name": "private-subot-server",
+  "version": "1.0.0",
+  "description": "Telegram bot server for private Subot",
+  "main": "dist/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "npx tsx src/index.ts"
+  },
+  "dependencies": {
+    "@ton/crypto": "^3.3.0",
+    "@ton/ton": "^15.0.0",
+    "@types/node-cron": "^3.0.11",
+    "axios": "^1.7.9",
+    "bignumber.js": "^9.1.2",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "ffmpeg": "^0.0.4",
+    "firebase-admin": "^13.4.0",
+    "fs": "^0.0.1-security",
+    "gif-encoder": "^0.7.2",
+    "gif-encoder-2": "^1.0.5",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.1.7",
+    "pako": "^2.1.0",
+    "sharp": "^0.33.5",
+    "socket.io": "^4.8.1",
+    "telegraf": "^4.16.3",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.1",
+    "concurrently": "^9.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
